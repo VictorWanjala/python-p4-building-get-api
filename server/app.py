@@ -19,7 +19,7 @@ db.init_app(app)
 def index():
     return "Index for Game/Review/User API"
 
-@app.route('/games')
+@app.route('/games/')
 def games():
 
     games = []
